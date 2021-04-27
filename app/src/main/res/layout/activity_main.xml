@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity" >
 
     <TextView
         android:id="@+id/textView"
@@ -17,7 +17,7 @@
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button 1" />
+        android:text="@string/button_1" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
         android:id="@+id/button14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/button"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -59,26 +59,12 @@
             android:id="@+id/button11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Button"/>
 
         <Button
             android:id="@+id/button12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
-    </LinearLayout><![CDATA[
-
-
-
-
-    #bbbbfb
-        android:orientation="horizontal">
-
-
-
-
-
-]]>
-</LinearLayout>
-
+            android:text="Button"/>
+    </LinearLayout>
 </LinearLayout>
